@@ -10,3 +10,19 @@
 .idea/
 *.iml
 out/
+# IntelliJ IDEA specific files
+*.iws
+*.ipr
+
+
+# User-specific files
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output
+/out/
