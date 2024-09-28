@@ -1,0 +1,28 @@
+# 디폴트 무시된 파일
+/shelf/
+/workspace.xml
+# 에디터 기반 HTTP 클라이언트 요청
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# IntelliJ IDEA 관련 파일/폴더 무시
+.idea/
+*.iml
+out/
+# IntelliJ IDEA specific files
+*.iws
+*.ipr
+
+
+# User-specific files
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output
+/out/
