@@ -8,5 +8,8 @@ public class List {
         map.put("meow", "dd");
         System.out.println(map.get("meow"));
         System.out.println(map.get("name")); // "사람",'dirn' 출력
+        System.out.println(map.containsKey("사람")); // false 출력 because "사람" is not a key in the map
+        System.out.println(map.containsValue("사람")); // true become because "사람" is value in the map\
+
     }
 }
