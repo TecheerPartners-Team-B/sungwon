@@ -10,7 +10,11 @@ public class List {
         System.out.println(map.get("name")); // "사람",'dirn' 출력
         System.out.println(map.containsKey("사람")); // false 출력 because "사람" is not a key in the map
         System.out.println(map.containsValue("사람")); // true become because "사람" is value in the map\
+        System.out.println(map.keySet()); // mewo, name 출력
+        System.out.println(map.size()); // 2 출력
         System.out.println(map.remove("meow")); // "dd" 출력 and remove the key-value pair 키 밸류 둘다 사라진
+        System.out.println(map.keySet()); // name 출력
+        System.out.println(map.size()); // 1 출력 because only one key-value pair left
 
     }
 }
